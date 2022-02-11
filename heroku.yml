@@ -1,6 +1,6 @@
-build:
-  docker:
-    release:
-       dockerfile: Dockerfile
-       target: builder
-    web: Dockerfile
+version: '2'
+
+services:
+  redis:
+    image: redis
+    command: redis-server
