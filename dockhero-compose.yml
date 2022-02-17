@@ -1,8 +1,0 @@
-version: '2'
-
-services:
-  redis:
-    image: redis
-    command: redis-server
-    port:
-      - 6379: 6379
